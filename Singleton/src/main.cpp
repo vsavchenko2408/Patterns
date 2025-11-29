@@ -3,35 +3,37 @@
 class Singleton
 {
     private:
-    static Singleton* object;
-    Singleton()
-    {
-        std::cout << "Object created" << std::endl;
-    }
+        Singleton()
+        {
+            std::cout << "Singleton Created" << std::endl;
+        }
+        static Singleton* object;
+    public:
     Singleton(const Singleton&) = delete;
     Singleton& operator=(const Singleton&) = delete;
-    public:
-
-    static Singleton* create_obj()
-    {
-        if(object == nullptr)
+        static Singleton* get_object()
         {
-            object = new Singleton();
+                if(object == nullptr)
+                {
+                    object = new Singleton();
+                }
+                return object;
         }
-        return object;
-    }
 
-    template<typename T>
-    void some_work(T& work)
-    {
-        std::cout << "Some work with: " << work << std::endl;
-    }
+        void some_doing()
+        {
+            std::cout << "I something doing!" << std::endl;
+        }
+
 };
 
-    Singleton* Singleton::object = nullptr;
+Singleton* Singleton::object = nullptr;
 
 int main()
 {
-    Singleton* obj = Singleton::create_obj();
-    obj->some_work("some data");    
+    Singleton* obj = Singleton::get_object();
+    obj->get_object();
+    obj->some_doing();
+
+return 0;
 }
