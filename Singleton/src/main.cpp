@@ -34,6 +34,6 @@ int main()
     Singleton* obj = Singleton::get_object();
     obj->get_object();
     obj->some_doing();
-
+    delete obj;
 return 0;
 }
