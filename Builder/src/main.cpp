@@ -72,13 +72,13 @@ int main()
     Data data1 = database
         .setInt(15)
         .setFloat(25.7)
-        .setBool(true)
+    //    .setBool(true)
         .build();
     data1.info();
     Data data2 = database
-        .setInt(10)
-        .setFloat(14.3)
-        .setBool(true)
+     //   .setInt(10)
+     //   .setFloat(14.3)
+     //   .setBool(true)
         .build();
         data2.info();
 
