@@ -32,5 +32,6 @@ class Humans
 
 int main()
 {
-    
+    std::cout << "Must be this text!" << std::endl;
+    return 0;
 }
