@@ -1,0 +1,158 @@
+<mxfile host="Electron">
+  <diagram name="Сторінка-1" id="X_018IpxJPzArhhdJaHh">
+    <mxGraphModel dx="1414" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Enemy" vertex="1">
+          <mxGeometry height="86" width="140" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-6" parent="UJNs8Aghu_R1ixp_NPYS-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ virtual void Attack()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-64" parent="UJNs8Aghu_R1ixp_NPYS-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-7" parent="UJNs8Aghu_R1ixp_NPYS-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ~Enemy()" vertex="1">
+          <mxGeometry height="26" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Weapon" vertex="1">
+          <mxGeometry height="86" width="140" x="560" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-11" parent="UJNs8Aghu_R1ixp_NPYS-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ virtual void Weapon()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-65" parent="UJNs8Aghu_R1ixp_NPYS-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-12" parent="UJNs8Aghu_R1ixp_NPYS-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ~Enemy()" vertex="1">
+          <mxGeometry height="26" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-37" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="UJNs8Aghu_R1ixp_NPYS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mage" vertex="1">
+          <mxGeometry height="52" width="140" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-15" parent="UJNs8Aghu_R1ixp_NPYS-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Attack() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Warrior" vertex="1">
+          <mxGeometry height="52" width="140" x="200" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-19" parent="UJNs8Aghu_R1ixp_NPYS-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Attack() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Archer" vertex="1">
+          <mxGeometry height="52" width="140" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-21" parent="UJNs8Aghu_R1ixp_NPYS-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Attack() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-44" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="480" />
+              <mxPoint x="600" y="480" />
+            </Array>
+            <mxPoint x="600" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Staff" vertex="1">
+          <mxGeometry height="52" width="140" x="560" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-23" parent="UJNs8Aghu_R1ixp_NPYS-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Use() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sword" vertex="1">
+          <mxGeometry height="52" width="140" x="720" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-25" parent="UJNs8Aghu_R1ixp_NPYS-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Use() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Bow" vertex="1">
+          <mxGeometry height="52" width="140" x="880" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-27" parent="UJNs8Aghu_R1ixp_NPYS-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Use() override" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EnemyFactory" vertex="1">
+          <mxGeometry height="150" width="140" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-29" parent="UJNs8Aghu_R1ixp_NPYS-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ virtual Enemy* CreateEnemy()" vertex="1">
+          <mxGeometry height="41" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-59" parent="UJNs8Aghu_R1ixp_NPYS-28" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-30" parent="UJNs8Aghu_R1ixp_NPYS-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ virtual Weapon* CreateWeapon()" vertex="1">
+          <mxGeometry height="41" width="140" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-60" parent="UJNs8Aghu_R1ixp_NPYS-28" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-31" parent="UJNs8Aghu_R1ixp_NPYS-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ~EnemyFactor()" vertex="1">
+          <mxGeometry height="26" width="140" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-39" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.679;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="UJNs8Aghu_R1ixp_NPYS-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="480" />
+              <mxPoint x="135.1" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-41" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.871;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" target="UJNs8Aghu_R1ixp_NPYS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-45" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="UJNs8Aghu_R1ixp_NPYS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-46" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" target="UJNs8Aghu_R1ixp_NPYS-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="400" />
+              <mxPoint x="672" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-49" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MageFactory" vertex="1">
+          <mxGeometry height="86" width="140" x="40" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-50" parent="UJNs8Aghu_R1ixp_NPYS-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateEnemy()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-61" parent="UJNs8Aghu_R1ixp_NPYS-49" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-51" parent="UJNs8Aghu_R1ixp_NPYS-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateWeapon()" vertex="1">
+          <mxGeometry height="26" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-53" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WarriorFactory" vertex="1">
+          <mxGeometry height="86" width="140" x="240" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-54" parent="UJNs8Aghu_R1ixp_NPYS-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateEnemy()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-62" parent="UJNs8Aghu_R1ixp_NPYS-53" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-55" parent="UJNs8Aghu_R1ixp_NPYS-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateWeapon()" vertex="1">
+          <mxGeometry height="26" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-56" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ArcherFactory" vertex="1">
+          <mxGeometry height="86" width="140" x="440" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-57" parent="UJNs8Aghu_R1ixp_NPYS-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateEnemy()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-63" parent="UJNs8Aghu_R1ixp_NPYS-56" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-58" parent="UJNs8Aghu_R1ixp_NPYS-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CreateWeapon()" vertex="1">
+          <mxGeometry height="26" width="140" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
