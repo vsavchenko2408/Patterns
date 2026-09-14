@@ -76,6 +76,28 @@
         <mxCell id="UJNs8Aghu_R1ixp_NPYS-27" parent="UJNs8Aghu_R1ixp_NPYS-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ void Use() override" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
         </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-67" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="UJNs8Aghu_R1ixp_NPYS-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="-154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-68" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="UJNs8Aghu_R1ixp_NPYS-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJNs8Aghu_R1ixp_NPYS-69" edge="1" parent="1" source="UJNs8Aghu_R1ixp_NPYS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="UJNs8Aghu_R1ixp_NPYS-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="120" />
+              <mxPoint x="520" y="-154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UJNs8Aghu_R1ixp_NPYS-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EnemyFactory" vertex="1">
           <mxGeometry height="150" width="140" x="40" y="40" as="geometry" />
         </mxCell>
