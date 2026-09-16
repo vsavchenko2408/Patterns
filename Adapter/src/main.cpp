@@ -12,6 +12,18 @@ class Mage
     }
 };
 
+class Warrior
+{
+    int _damage;
+    public:
+    Warrior(){}
+    Warrior(int damage):_damage(damage){}
+    void NewAttack()
+    {
+        std::cout << "Damaged: " << _damage << " points." << std::endl;
+    }
+};
+
 class Attacker
 {
     public:
@@ -30,6 +42,17 @@ class MageAdapter: public Attacker
     }
 };
 
+class WarriorAdapter: public Attacker
+{
+    Warrior& _warrior;
+    public:
+    WarriorAdapter(Warrior& warrior):_warrior(warrior){}
+    void Attack() override
+    {
+        _warrior.NewAttack();
+    }
+};
+
 class Game
 {
     public:
@@ -44,9 +67,12 @@ int main()
 {
 
     Mage m(15);
-    MageAdapter adapter(m);
+    Warrior w(20);
+    MageAdapter madapter(m);
+    WarriorAdapter wadapter(w);
     Game game;
-    game.Start(adapter);
+    game.Start(madapter);
+    game.Start(wadapter);
 
 
     return 0;
